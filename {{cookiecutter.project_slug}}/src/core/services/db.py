@@ -1,0 +1,2 @@
+class DatabaseComponents:
+    pass
