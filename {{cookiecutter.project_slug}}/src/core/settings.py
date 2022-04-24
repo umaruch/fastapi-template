@@ -49,7 +49,7 @@ class MailSettings(BaseSettings):
 
 class ApplicationSettings(BaseSettings):
     APP_NAME: str = "default_application"
-    API_VERSION: str = "v1"
+    API_URL: str = "/api/v1"
     DOCS_URL: str = "/docs"
 
     DEBUG: bool = False
